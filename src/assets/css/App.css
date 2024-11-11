@@ -1635,7 +1635,561 @@ max-width:400px;
        .newsletter p{
         margin: 10px;
        }
+     @media (max-width: 390px) {
+    .nav-links {
+        flex-direction: column;
+        width: 45%;
+        position: fixed;
+        top: 60px;
+        left: -11px;
+        background-color: white;
+        height: 102%;
+        top: -34px;
+        display: none;
+        
+        
+    }
+.btn-star{
+    display: none;
+}
+    .nav-links.active {
+        display: flex;
+        max-width: 100%;
+        
+        
+    }
+    .nav-links.active li a{
+        color: #021048;
+        display: flex;
+        position: relative;
+        align-items: center;
+        top: 140px;
+        font-size: 20px;
+        
+    }
+   
+    .clip .close {
+        margin: 211px -215px 10px -10px;
+    }
+    .clipq .closeq {
+        margin: 185px -211px 10px -10px;
      
+    }
+    .clips .closes {
+        margin: 180px -211px 10px -10px;
+    }
+  
+  
+   .dro-paged{
+    flex-direction: column;
+   }
+
+    .burger {
+        margin: 41px 10px 9px 340px;
+        font-size: 18px;
+        position: absolute;
+       
+    }
+    .logo a{
+        margin: -50px;
+    }
+
+    .nav-links li {
+        text-align: center;
+    }
+
+
+
+
+
+   .overlay{
+    display: none;
+   }
+   
+    .navbar{
+       
+        height:70px;
+    }
+     
+    header{
+        background-image: linear-gradient(90deg, #021048, #1e38a3);
+        min-height:  1200px;
+    }
+    
+    .main-faq-down{
+        flex-direction: column;
+    }
+    
+    
+   
+        .main-tex-cons{
+            flex-direction: column-reverse;
+        }
+      
+       .main-pricing-crf{
+        max-width: 370px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+       }
+        .main-pricing-top{
+            min-height:2234px;
+        }
+        .main-pricing-top-tex{
+            max-width: 370px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-left: 200px;
+            margin-top: 45px;
+        }
+        .main-pricing-mid{
+           margin: 161px 10px -122px -66px;
+            flex-direction: column;
+        }
+       #left-conm{
+        margin: 1410px 10px 10px 188px;
+        max-width: 370px;
+    
+       }
+       .left-crf-com-2{
+        max-width: 370px;
+        position: relative;
+        left: -88px;
+       }
+       .left-crf-com{
+        position: relative;
+        max-width: 370px;
+        left: -184px;
+       }
+  
+    
+    
+    
+   
+    
+    
+    .main-con-card{
+      
+        max-width: 370px;
+        flex-direction: column;
+        margin: 1px 10px 57px -1129px;
+    
+        
+    }
+    .main-con-ars{
+        margin: 268px 10px -226px 10px;
+    }
+    .main-imw img{
+        max-width: 370px;
+        max-height: 420px;
+    }
+    .left-tes-a{
+        max-width: 370px;
+      margin: 10px 10px 10px 10px;
+    }
+    .main-section{
+        min-height: 1500px;
+    }
+   
+.featu-tex{
+    max-width: 370px;
+    margin: 129px 1118px 1px 10px;
+
+}
+    
+    .util-con-mn{
+    flex-direction: column;
+    margin: 0px 678px 67px 0px;
+    }
+    .util-con-lef{
+        max-width: 370px;
+        margin: 316px 402px -517px -35px;
+    }
+    .util-con-lef-1{
+        margin: 515px 10px 27px -419px;
+        max-width: 370px;
+    }
+    .lef-con-u{
+        max-width: 250px;
+    }
+    .lef-con-u p{
+        max-width: 180px;
+       
+    }
+    .lef-con-u h3{
+        max-width: 180px;
+        
+    }
+    .lef-con-u-1{
+        max-width: 250px;
+    }
+    .rig-util-im-1 img{
+        max-width: 160px;
+        margin: -29px 10px 10px -150px;
+        
+       } 
+       .lef-con-u-1 h3{
+        max-width: 200px;
+        
+    }
+       .rig-util-im img{
+        max-width: 160px;
+        margin: -29px 10px 10px -150px;
+        
+       } 
+    
+ 
+   
+    
+    .main-adv-con{
+    min-height: 900px;
+    }
+    
+    .main-advs-top{
+        flex-direction: column-reverse;
+        margin: 267px 20px 1px -260px;
+    
+    }
+    .rig-advs img{
+        max-width: 370px;
+        max-height: 400px;
+        margin: 0px 32px 10px -51px;
+    }
+    .lef-advs{
+        max-width: 370px;
+        margin: 130px 10px 10px -267px;
+    }
+   
+    .main-adv-cos{
+     min-height: 900px;
+     
+     
+    }
+      
+    .lef-li-a{
+        margin: 10px -71px 10px 53px;
+}
+    
+    .main-mat-1{
+   flex-direction: column-reverse;
+   
+  
+  
+    }
+    .rig-tex-cs{
+        max-width: 370px;
+        margin: 150px 10px 10px -457px;
+    }
+    .img-lew img{
+        max-width: 370px;
+        min-height: 400px;
+        margin: -59px 10px 131px -155px;
+    }
+    
+   
+
+    .test-mon-main{
+        max-width: 370px;
+        min-height: 1600px;
+        
+    }
+    .test-mon-top{
+        max-width: 370px;
+        margin: -222px 10px 83px 401px;
+    
+    }
+    .lef-test-div{
+        max-width: 370px;
+        margin: 67px 10px 12px 420px;
+    }
+     .test-mid-main{
+        flex-direction: column;
+     }
+    
+  
+    
+    .layer{
+        max-height: 247px;
+        min-width: 309px;
+    }
+    .rig-tes-img-b{
+        position: relative;
+ top: 203px ;
+ 
+    }
+    
+    .right-test-img-div{
+        max-width: 309px;
+        max-height: 303px;
+        margin: 99px 10px -113px 433px;
+        
+    }
+    .rig-tes-img-a img{
+        max-width: 309px;
+        max-height: 303px;
+        border-radius: 10px;
+    }
+    .don-tex{
+        margin-top: -45px ;
+    }
+       
+        
+    
+    
+  
+    .main-down-contew{
+       max-width: 370px;
+      
+    }
+   #joe{
+    margin: 384px -45px 10px 425px;
+    max-width: 200px;
+    min-height: 100px;
+
+   }
+   
+  
+   #rupan{
+    min-height: 100px;
+    max-width: 200px;
+    margin: 603px 10px 10px -168px;
+   }
+   #doe{
+    min-height: 100px;
+    max-width: 200px;
+    margin: 829px -160px 10px -223px;
+
+}
+
+   
+   #hanry{
+    min-height: 100px;
+        max-width: 200px;
+        margin: 1040px 10px 10px -57px;
+    
+   }
+    
+    .procees-main{
+     max-width: 370px;
+     min-height: 1340px;
+    }
+    .process-top-tex{
+        max-width: 370px;
+        margin: -83px 10px 10px 423px;
+    
+    }
+
+    
+    .main-process-md{
+        flex-direction: column;
+        max-width: 370px;
+        margin: 79px 10px 10px 455px;
+    }
+    .process-lef-im img{
+        max-width: 370px;
+        min-height: 400px;
+        margin: 0px 0px 10px 39px;
+    
+    }
+    .process-rig-tex-main{
+        max-width: 370px ;
+        min-height: 400px;
+        margin: 10px 10px 10px -51px;
+    }
+    
+    .icon-pro-1 {
+        max-width: 0px;
+    }
+    .dotted-line{
+        min-height: 120px;
+    }
+
+    .rig-ip-tex{
+        max-width: 200px;
+        margin: -1px 62px 10px -42px;
+    
+    }
+   .left-icon-tex{
+    max-width: 60px;
+    margin: 10px 103px 10px 1px;
+
+   }
+  
+
+    .tex-cons-a {
+       max-width: 300px;
+       
+       margin-top: 25px;
+       
+    }
+    .tex-cons-a p{
+        max-width: 300px;
+        min-height: 20px;
+        
+     } 
+                .faq-main{
+                    max-width: 370px;
+                    min-height: 1300px;
+                    margin: 10px 10px 10px -388px;
+                }
+               
+                .faq-top-tex{
+                    max-width: 370px;
+                    margin: -282px 197px 83px 168px;
+                  
+                    
+                }
+                .main-faq-down{
+                    max-width: 370px;
+                    margin: 10px 10px 10px 272px;
+                }
+                .left-faq-tex p{
+max-width:370px;
+                }
+                
+                
+    .right-faq-img img{
+        max-width: 370px;
+        min-height: 400px;
+        margin: 10px 10px 10px -206px;
+    }
+    .main-img-icon-g{
+        min-height: 1300px;
+    }
+   
+    .main-combine-img{
+    flex-direction: column;
+    margin: 10px 10px 10px -414px;
+    
+    }
+    .left-combine-img{
+   max-width: 270px;
+    
+    }
+    .img-icon-a{
+        margin: 9px -29px 10px 181px;
+    }
+    .img-icon-b{
+       
+        margin: 24px 147px 10px 60px;
+    }
+    .img-icon-c{
+        margin: 9px -10px 10px 155px;
+    }
+    .img-icon-d{
+        margin: 44px 156px 10px 27px;
+    }
+    .img-icon-e{
+        margin: 90px 97px -1px 3px;
+    }
+    .img-icon-f{
+        margin: 9px -29px 10px 63px;
+    }
+    .mid-combine-tex{
+    max-width: 270px;
+    }
+   
+    
+  
+    
+    .right-combine-img{
+      max-width: 370px;
+       
+        }
+      .drive-main{
+       min-height: 728px;
+      }
+   
+    .drive-main-combine{
+       max-width: 370px;
+       flex-direction: column;
+     
+    }
+    .left-drive-box{
+        max-width: 360px;
+        margin: 27px -342px 10px 353px;
+    
+    }
+   
+    
+    
+    .connect{
+        margin: 11px 27px 31px 251px;
+    }
+   
+    .connect-1{
+        margin: 11px 27px 31px 251px;
+    }
+       
+        
+        .lets-try{
+           max-width: 370px;
+            
+        }
+        .lets-start{
+            max-width: 370px;
+            margin: 10px 10px 10px -304px;
+        
+        }
+        .top-tex-lets{
+            max-width: 350px;
+            margin: -145px 10px 10px 10px;
+        }
+        .lets-down{
+            flex-direction: column;
+            
+        }
+        .icons-ad-a{
+            margin: 23px 10px -39px 10px;
+        }
+     
+        
+       
+        
+        
+      
+        .main-combine-foot{
+  max-width: 370px;
+
+ margin: -163px 5px 380px -76px;
+ 
+    
+    
+    }
+    .left-footer{
+        margin: 279px 331px 10px -268px;
+    }
+    .footer{
+        min-height: 800px;
+    }
+        
+       
+        
+        .footer-bottom {
+          max-width: 370px; 
+        }
+        .left-foot-bot{
+    
+            margin: 0px -596px 10px -205px;
+        }
+        .combine-foot{
+   max-width: 370px;
+    }
+        
+        .right-icon-bottom{
+   max-width: 370px;
+   margin: -10px 218px 10px 10px;
+    
+        }
+       .newsletter p{
+        margin: 10px;
+       }
+           
+    
+}
         
     
     
